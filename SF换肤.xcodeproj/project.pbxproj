@@ -1,0 +1,440 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2FD182DC7EA38180DE8D2DE0 /* libPods-SF换肤.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 85314A280BF33B01EC3CA01E /* libPods-SF换肤.a */; };
+		C55756A322719C30003BAE0E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C55756A222719C30003BAE0E /* AppDelegate.m */; };
+		C55756AB22719C39003BAE0E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C55756AA22719C39003BAE0E /* Assets.xcassets */; };
+		C55756AE22719C39003BAE0E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C55756AC22719C39003BAE0E /* LaunchScreen.storyboard */; };
+		C55756B122719C39003BAE0E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C55756B022719C39003BAE0E /* main.m */; };
+		C55756B922719CD2003BAE0E /* SF_HomeTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = C55756B822719CD2003BAE0E /* SF_HomeTabBarController.m */; };
+		C55756BC22719CFC003BAE0E /* ViewController0.m in Sources */ = {isa = PBXBuildFile; fileRef = C55756BB22719CFC003BAE0E /* ViewController0.m */; };
+		C55756BF22719D05003BAE0E /* ViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = C55756BE22719D05003BAE0E /* ViewController1.m */; };
+		C55756C222719D0F003BAE0E /* ViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = C55756C122719D0F003BAE0E /* ViewController2.m */; };
+		C55756C522719D1F003BAE0E /* ViewController3.m in Sources */ = {isa = PBXBuildFile; fileRef = C55756C422719D1F003BAE0E /* ViewController3.m */; };
+		C55756CD2272A6B4003BAE0E /* SF_ImageLoadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C55756CC2272A6B4003BAE0E /* SF_ImageLoadManager.m */; };
+		C55756D52272D20C003BAE0E /* NSArray+ ZXPUnicode.m in Sources */ = {isa = PBXBuildFile; fileRef = C55756CF2272D20C003BAE0E /* NSArray+ ZXPUnicode.m */; };
+		C55756D62272D20C003BAE0E /* NSDictionary+ZXPUnicode.m in Sources */ = {isa = PBXBuildFile; fileRef = C55756D22272D20C003BAE0E /* NSDictionary+ZXPUnicode.m */; };
+		C55756D72272D20C003BAE0E /* NSObject+ZXPUnicode.m in Sources */ = {isa = PBXBuildFile; fileRef = C55756D42272D20C003BAE0E /* NSObject+ZXPUnicode.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		85314A280BF33B01EC3CA01E /* libPods-SF换肤.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SF换肤.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A87C78845D51B00D96DD503 /* Pods-SF换肤.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SF换肤.debug.xcconfig"; path = "Target Support Files/Pods-SF换肤/Pods-SF换肤.debug.xcconfig"; sourceTree = "<group>"; };
+		AD76C73C876D7F16B0499AD2 /* Pods-SF换肤.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SF换肤.release.xcconfig"; path = "Target Support Files/Pods-SF换肤/Pods-SF换肤.release.xcconfig"; sourceTree = "<group>"; };
+		C557569E22719C30003BAE0E /* SF换肤.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SF换肤.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C55756A122719C30003BAE0E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C55756A222719C30003BAE0E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C55756AA22719C39003BAE0E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C55756AD22719C39003BAE0E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C55756AF22719C39003BAE0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C55756B022719C39003BAE0E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C55756B722719CD2003BAE0E /* SF_HomeTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SF_HomeTabBarController.h; sourceTree = "<group>"; };
+		C55756B822719CD2003BAE0E /* SF_HomeTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SF_HomeTabBarController.m; sourceTree = "<group>"; };
+		C55756BA22719CFC003BAE0E /* ViewController0.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController0.h; sourceTree = "<group>"; };
+		C55756BB22719CFC003BAE0E /* ViewController0.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController0.m; sourceTree = "<group>"; };
+		C55756BD22719D05003BAE0E /* ViewController1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController1.h; sourceTree = "<group>"; };
+		C55756BE22719D05003BAE0E /* ViewController1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController1.m; sourceTree = "<group>"; };
+		C55756C022719D0F003BAE0E /* ViewController2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController2.h; sourceTree = "<group>"; };
+		C55756C122719D0F003BAE0E /* ViewController2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController2.m; sourceTree = "<group>"; };
+		C55756C322719D1F003BAE0E /* ViewController3.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController3.h; sourceTree = "<group>"; };
+		C55756C422719D1F003BAE0E /* ViewController3.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController3.m; sourceTree = "<group>"; };
+		C55756CB2272A6B4003BAE0E /* SF_ImageLoadManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SF_ImageLoadManager.h; sourceTree = "<group>"; };
+		C55756CC2272A6B4003BAE0E /* SF_ImageLoadManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SF_ImageLoadManager.m; sourceTree = "<group>"; };
+		C55756CF2272D20C003BAE0E /* NSArray+ ZXPUnicode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+ ZXPUnicode.m"; sourceTree = "<group>"; };
+		C55756D02272D20C003BAE0E /* NSArray+ZXPUnicode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+ZXPUnicode.h"; sourceTree = "<group>"; };
+		C55756D12272D20C003BAE0E /* NSDictionary+ZXPUnicode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+ZXPUnicode.h"; sourceTree = "<group>"; };
+		C55756D22272D20C003BAE0E /* NSDictionary+ZXPUnicode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+ZXPUnicode.m"; sourceTree = "<group>"; };
+		C55756D32272D20C003BAE0E /* NSObject+ZXPUnicode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+ZXPUnicode.h"; sourceTree = "<group>"; };
+		C55756D42272D20C003BAE0E /* NSObject+ZXPUnicode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+ZXPUnicode.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C557569B22719C2F003BAE0E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FD182DC7EA38180DE8D2DE0 /* libPods-SF换肤.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C557569522719C2F003BAE0E = {
+			isa = PBXGroup;
+			children = (
+				C55756A022719C30003BAE0E /* SF换肤 */,
+				C557569F22719C30003BAE0E /* Products */,
+				D744BEF0FFE276E823FA0F46 /* Pods */,
+				E82DF47A3E9D52DC63FE3777 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C557569F22719C30003BAE0E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C557569E22719C30003BAE0E /* SF换肤.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C55756A022719C30003BAE0E /* SF换肤 */ = {
+			isa = PBXGroup;
+			children = (
+				C55756CE2272D20C003BAE0E /* ZXPUnicode */,
+				C55756A122719C30003BAE0E /* AppDelegate.h */,
+				C55756A222719C30003BAE0E /* AppDelegate.m */,
+				C55756B722719CD2003BAE0E /* SF_HomeTabBarController.h */,
+				C55756B822719CD2003BAE0E /* SF_HomeTabBarController.m */,
+				C55756CB2272A6B4003BAE0E /* SF_ImageLoadManager.h */,
+				C55756CC2272A6B4003BAE0E /* SF_ImageLoadManager.m */,
+				C55756BA22719CFC003BAE0E /* ViewController0.h */,
+				C55756BB22719CFC003BAE0E /* ViewController0.m */,
+				C55756BD22719D05003BAE0E /* ViewController1.h */,
+				C55756BE22719D05003BAE0E /* ViewController1.m */,
+				C55756C022719D0F003BAE0E /* ViewController2.h */,
+				C55756C122719D0F003BAE0E /* ViewController2.m */,
+				C55756C322719D1F003BAE0E /* ViewController3.h */,
+				C55756C422719D1F003BAE0E /* ViewController3.m */,
+				C55756AA22719C39003BAE0E /* Assets.xcassets */,
+				C55756AC22719C39003BAE0E /* LaunchScreen.storyboard */,
+				C55756AF22719C39003BAE0E /* Info.plist */,
+				C55756B022719C39003BAE0E /* main.m */,
+			);
+			path = "SF换肤";
+			sourceTree = "<group>";
+		};
+		C55756CE2272D20C003BAE0E /* ZXPUnicode */ = {
+			isa = PBXGroup;
+			children = (
+				C55756CF2272D20C003BAE0E /* NSArray+ ZXPUnicode.m */,
+				C55756D02272D20C003BAE0E /* NSArray+ZXPUnicode.h */,
+				C55756D12272D20C003BAE0E /* NSDictionary+ZXPUnicode.h */,
+				C55756D22272D20C003BAE0E /* NSDictionary+ZXPUnicode.m */,
+				C55756D32272D20C003BAE0E /* NSObject+ZXPUnicode.h */,
+				C55756D42272D20C003BAE0E /* NSObject+ZXPUnicode.m */,
+			);
+			path = ZXPUnicode;
+			sourceTree = "<group>";
+		};
+		D744BEF0FFE276E823FA0F46 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9A87C78845D51B00D96DD503 /* Pods-SF换肤.debug.xcconfig */,
+				AD76C73C876D7F16B0499AD2 /* Pods-SF换肤.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E82DF47A3E9D52DC63FE3777 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				85314A280BF33B01EC3CA01E /* libPods-SF换肤.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C557569D22719C2F003BAE0E /* SF换肤 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C55756B422719C39003BAE0E /* Build configuration list for PBXNativeTarget "SF换肤" */;
+			buildPhases = (
+				69175EA24EF7DB3A1A6ED6B9 /* [CP] Check Pods Manifest.lock */,
+				C557569A22719C2F003BAE0E /* Sources */,
+				C557569B22719C2F003BAE0E /* Frameworks */,
+				C557569C22719C2F003BAE0E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SF换肤";
+			productName = "SF换肤";
+			productReference = C557569E22719C30003BAE0E /* SF换肤.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C557569622719C2F003BAE0E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "石峰";
+				TargetAttributes = {
+					C557569D22719C2F003BAE0E = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = C557569922719C2F003BAE0E /* Build configuration list for PBXProject "SF换肤" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C557569522719C2F003BAE0E;
+			productRefGroup = C557569F22719C30003BAE0E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C557569D22719C2F003BAE0E /* SF换肤 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C557569C22719C2F003BAE0E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C55756AE22719C39003BAE0E /* LaunchScreen.storyboard in Resources */,
+				C55756AB22719C39003BAE0E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		69175EA24EF7DB3A1A6ED6B9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SF换肤-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C557569A22719C2F003BAE0E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C55756C222719D0F003BAE0E /* ViewController2.m in Sources */,
+				C55756B922719CD2003BAE0E /* SF_HomeTabBarController.m in Sources */,
+				C55756BF22719D05003BAE0E /* ViewController1.m in Sources */,
+				C55756D72272D20C003BAE0E /* NSObject+ZXPUnicode.m in Sources */,
+				C55756B122719C39003BAE0E /* main.m in Sources */,
+				C55756BC22719CFC003BAE0E /* ViewController0.m in Sources */,
+				C55756D52272D20C003BAE0E /* NSArray+ ZXPUnicode.m in Sources */,
+				C55756C522719D1F003BAE0E /* ViewController3.m in Sources */,
+				C55756D62272D20C003BAE0E /* NSDictionary+ZXPUnicode.m in Sources */,
+				C55756CD2272A6B4003BAE0E /* SF_ImageLoadManager.m in Sources */,
+				C55756A322719C30003BAE0E /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C55756AC22719C39003BAE0E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C55756AD22719C39003BAE0E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C55756B222719C39003BAE0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C55756B322719C39003BAE0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C55756B522719C39003BAE0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A87C78845D51B00D96DD503 /* Pods-SF换肤.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8QZ5SB4V7L;
+				INFOPLIST_FILE = "SF换肤/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "--.SF--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C55756B622719C39003BAE0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD76C73C876D7F16B0499AD2 /* Pods-SF换肤.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8QZ5SB4V7L;
+				INFOPLIST_FILE = "SF换肤/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "--.SF--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C557569922719C2F003BAE0E /* Build configuration list for PBXProject "SF换肤" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C55756B222719C39003BAE0E /* Debug */,
+				C55756B322719C39003BAE0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C55756B422719C39003BAE0E /* Build configuration list for PBXNativeTarget "SF换肤" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C55756B522719C39003BAE0E /* Debug */,
+				C55756B622719C39003BAE0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C557569622719C2F003BAE0E /* Project object */;
+}
